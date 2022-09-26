@@ -9,7 +9,7 @@ It communicates with FreeSWITCH using [mod_event_socket](https://freeswitch.org/
 
 # Give me a star!!
 
-poll from [GitHub - florentchauveau/freeswitch_exporter: Prometheus exporter for FreeSWITCH](https://github.com/florentchauveau/freeswitch_exporter) 
+pull from [GitHub - florentchauveau/freeswitch_exporter: Prometheus exporter for FreeSWITCH](https://github.com/florentchauveau/freeswitch_exporter) 
 
 Add metrics as below:
 
@@ -89,11 +89,11 @@ basic_auth_users:
 ```
 confg.yaml file password is `prometheus`
 
-You can validate that file with promtool check web-config config.yml
+You can validate that file with promtool check web-config config.yaml
 
 ```shell
-$ promtool check web-config config.yml
-web.yml SUCCESS
+$ promtool check web-config config.yaml
+config.yaml SUCCESS
 ```
 You can add multiple users to the file.
 
