@@ -29,10 +29,7 @@ Add feature:
 
 Pre-built static binaries are available in [releases](https://github.com/mroject/freeswitch_exporter/releases).
 
-docker available:
-```docker
-docker pull ghcr.io/mroject/freeswitch_exporter:sha256-9fc5233ea8b76b30cd69f5e6edd949bb3d9d6348cb18469dc2b3aa35f82cd1b1.sig
-```
+docker available in [ghcr.io](https://github.com/mroject/freeswitch_exporter/pkgs/container/freeswitch_exporter)
 
 To run it:
 ```bash
