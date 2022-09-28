@@ -72,7 +72,7 @@ Also, you need to make sure that the exporter will be allowed by the ACL (if any
 
 ## grafana dashboard
 
-import id: **17071**
+import id: **[17071](https://grafana.com/api/dashboards/17071/revisions/1/download)**
 
 ## basic auth
 
