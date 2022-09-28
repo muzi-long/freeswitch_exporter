@@ -70,6 +70,10 @@ You can specify the scrape URI with the `--freeswitch.scrape-uri` flag. Example:
 
 Also, you need to make sure that the exporter will be allowed by the ACL (if any), and that the password matches.
 
+## grafana dashboard
+
+import id: **17071**
+
 ## basic auth
 
 build password
