@@ -102,6 +102,28 @@ You can add multiple users to the file.
 
 visit promethues : https://prometheus.io/docs/guides/tls-encryption/
 
+## Prometheus Config:
+
+in prometheus.yml add:
+```yaml
+  - job_name: "FreeSWITCH"
+    static_configs:
+      - targets: 
+          - 192.168.1.1:9282
+```
+
+if freeswitch enable auth（use git  config.yaml）
+
+```
+  - job_name: "FreeSWITCH"
+    basic_auth:
+      username: prometheus
+      password: prometheus
+    static_configs:
+      - targets: 
+          - 192.168.1.1:9282
+```
+
 ## Metrics
 
 The exporter will try to fetch values from the following commands:
