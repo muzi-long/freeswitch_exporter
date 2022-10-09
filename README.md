@@ -228,6 +228,8 @@ Dependencies will be fetched automatically.
 
 Feel free to send pull requests.
 
+State-owned enterprises, central enterprises, joint-stock listed enterprises, companies with political positions, should be used for a fee.
+
 Copyright (c) 2022 Zhang Lian Jun <z0413j@outlook.com>
 
 :)
