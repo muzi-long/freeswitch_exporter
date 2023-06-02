@@ -39,6 +39,16 @@ func main() {
 	logger := promlog.New(promlogConfig)
 	kingpin.Parse()
 
+	host := os.Getenv("FREESWITCH_HOST")
+	if host != "" {
+		*scrapeURI = host
+	}
+
+	pwd := os.Getenv("FREESWITCH_PASSWORD")
+	if pwd != "" {
+		*password = pwd
+	}
+
 	c, err := NewCollector(*scrapeURI, *timeout, *password)
 
 	if err != nil {
