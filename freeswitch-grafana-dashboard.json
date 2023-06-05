@@ -127,7 +127,7 @@
           "expr": "freeswitch_up{instance=\"$instance\"}",
           "instant": false,
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -187,7 +187,7 @@
           "exemplar": true,
           "expr": "freeswitch_uptime_seconds{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -264,7 +264,7 @@
           "exemplar": true,
           "expr": "freeswitch_current_idle_cpu{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -327,7 +327,7 @@
           "exemplar": true,
           "expr": "freeswitch_max_sessions{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -386,7 +386,7 @@
           "exemplar": true,
           "expr": "freeswitch_max_sps{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -445,7 +445,7 @@
           "exemplar": true,
           "expr": "freeswitch_registrations{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -520,7 +520,7 @@
           "exemplar": true,
           "expr": "freeswitch_sessions_total {instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -591,7 +591,7 @@
           "exemplar": true,
           "expr": "freeswitch_current_sessions{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -648,7 +648,7 @@
           "exemplar": true,
           "expr": "freeswitch_current_sessions_peak_last_5min{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -705,7 +705,7 @@
           "exemplar": true,
           "expr": "freeswitch_current_sessions_peak_last_5min{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -762,7 +762,7 @@
           "exemplar": true,
           "expr": "freeswitch_current_sps{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -820,7 +820,7 @@
           "exemplar": true,
           "expr": "freeswitch_current_sessions_peak{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -877,7 +877,7 @@
           "exemplar": true,
           "expr": "freeswitch_current_sps_peak_last_5min{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -970,7 +970,7 @@
           "format": "time_series",
           "instant": true,
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1035,7 +1035,7 @@
           "exemplar": true,
           "expr": "freeswitch_sofia_gateway_ping{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1102,7 +1102,7 @@
           "exemplar": true,
           "expr": "freeswitch_sofia_gateway_call_in{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1169,7 +1169,7 @@
           "exemplar": true,
           "expr": "freeswitch_sofia_gateway_call_out{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1236,7 +1236,7 @@
           "exemplar": true,
           "expr": "freeswitch_sofia_gateway_failed_call_in{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1307,7 +1307,7 @@
           "exemplar": true,
           "expr": "freeswitch_sofia_gateway_failed_call_out{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1400,7 +1400,7 @@
           "exemplar": true,
           "expr": "freeswitch_load_module{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1501,7 +1501,7 @@
           "exemplar": true,
           "expr": "freeswitch_codec_status{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1598,7 +1598,7 @@
           "exemplar": true,
           "expr": "freeswitch_endpoint_status{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1699,7 +1699,7 @@
           "exemplar": true,
           "expr": "freeswitch_verto_status{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1804,7 +1804,7 @@
           "format": "time_series",
           "instant": false,
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1893,7 +1893,7 @@
           "exemplar": true,
           "expr": "freeswitch_current_sessions{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -1982,7 +1982,7 @@
           "exemplar": true,
           "expr": "freeswitch_current_calls{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -2071,7 +2071,7 @@
           "exemplar": true,
           "expr": "freeswitch_bridged_calls{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -2160,7 +2160,7 @@
           "exemplar": true,
           "expr": "freeswitch_current_sps{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
@@ -2249,7 +2249,7 @@
           "exemplar": true,
           "expr": "freeswitch_detailed_calls{instance=\"$instance\"}",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "__auto",
           "refId": "A"
         }
       ],
